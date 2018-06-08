@@ -41,7 +41,7 @@
 			transform: translateX(0);
 
 			.site-header--dark & {
-				transform: scale(.57);
+				transform: scale(.56);
 			}
 		}
 	}
@@ -92,7 +92,7 @@
 			transition:  transform .3s ease-out;
 		}
 
-		@mixin atMedium {
+		@{
 			display: none;
 		}
 	}
